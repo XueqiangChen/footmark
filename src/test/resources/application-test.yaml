@@ -1,0 +1,23 @@
+spring:
+  mail:
+    default-encoding: UTF-8
+    host: localhost
+    username: abc@qq.com
+    password: password
+    port: 3025
+    properties:
+      mail:
+        debug: false
+        smtp:
+          debug: false
+          auth: true
+          starttls: true
+    protocol: smtp
+    test-connection: false
+  freemarker:
+    template-loader-path: classpath:/templates/
+    enabled: true
+    cache: false
+    charset: UTF-8
+    content-type: text/html
+    check-template-location: true

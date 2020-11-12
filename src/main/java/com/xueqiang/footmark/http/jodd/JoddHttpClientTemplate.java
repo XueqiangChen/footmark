@@ -37,16 +37,4 @@ public class JoddHttpClientTemplate {
         return responseBody;
     }
 
-    public static void main(String[] args) {
-        List<String> list1 =    null;
-        List<String> list2 = new ArrayList<>();
-
-
-        list2.add("a");
-        list2.add("b");
-        list2.add("c");
-
-        boolean rest = list2.containsAll(list1);
-        System.out.println(rest);
-    }
 }

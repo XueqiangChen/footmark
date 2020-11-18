@@ -22,7 +22,7 @@ public class ScheduledTasks {
 	 * completion of the task. You can also use @Scheduled(cron=". . .") expressions for more
 	 * sophisticated task scheduling.
 	 */
-	@Scheduled(fixedRate = 5000)
+	@Scheduled(fixedRate = 600000) //5000 = 5s
 	public void reportCurrentTime() {
 		logger.info("The time is now {}", dateFormat.format(new Date()));
 	}

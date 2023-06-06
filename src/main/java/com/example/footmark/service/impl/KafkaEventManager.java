@@ -21,7 +21,7 @@ public class KafkaEventManager implements KafkaMessageConsumer {
     private KafkaClientService kafkaClientService;
     private ExecutorService executorService;
 
-    @PostConstruct
+//    @PostConstruct
     public void init() {
         log.info("Start kafka event manager");
         // Start consumer thread
